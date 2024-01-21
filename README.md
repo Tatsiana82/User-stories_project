@@ -1,4 +1,5 @@
 # User-stories_project
+# https://magento.softwaretestingboard.com/training.html
 US_010.001 | Training > Visibility
 
 As a User I want to see Training page information on the left side of the page
