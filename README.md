@@ -128,12 +128,12 @@ A User see the message "You have no items in your wish list."
 A registered User can see content of the his wish list
 A registered User can be redirected to Wish List page by click on "Go to Wish List" link
 ****************************************************************************************
-TC_010.001.001 | Traning > Verify that Training page is opening 
+TC_010.001.001 | Training > Verify that Training page is opening 
 
 from selenium.webdriver.common.by import By
 
 class TrainingPageLocators:
-    TRANING_MENU = (By.XPATH, "//a[@id='ui-id-7']/span[last()]")
+    TRAINING_MENU = (By.XPATH, "//a[@id='ui-id-7']/span[last()]")
     
 class TestTrainingPage:
     def test_open_Training_page(self, driver):
@@ -150,6 +150,6 @@ class TrainingPage(BasePage):
     URL = "https://magento.softwaretestingboard.com/training.html"
 
     def click_training_menu(self):
-        self.is_clickable(TrainingPageLocators.TRANING_MENU).click()
+        self.is_clickable(TrainingPageLocators.TRAINING_MENU).click()
 
 
